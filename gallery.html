@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Learning HTML - First Website</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  <style>
+		img {
+			border-radius: 8px;
+			max-width: 100%;
+			height: auto;
+		}
+	  </style>
+	  
+   </head>
+	
+   <body style="background-color:#95b1de;" alink = "#FF0000" link = "#0000FF" vlink = "#800080">
+   
+	<div align = "center">
+		<!-- Title of the overall page -->
+		<p title = "???" style = "font-family:Helvetica; color:#3ca5ca;"> <font size = "7"> <b>Headspace</b></font> </p>
+		<!-- end title-->
+	
+	
+		<!-- General Music -->
+		<audio controls autoplay loop id="page_music">
+			<source src= "C:/Users/Jeruel/Desktop/HTML Project 1/Time.mp3" type="audio/mpeg">
+		</audio>
+		
+		<script>
+			var music = document.getElementById("page_music");
+			music.volume = 0.2;
+		</script>
+		<!-- end music -->
+		
+		<p></p>
+		
+		<!-- Directories -->
+		<div id = "directory" style = "font-weight:bold;">
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/HTML Project 1.html">Home</a> | 
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/journal.html">Journal</a> | 
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/gallery.html">Gallery</a> | 
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/music.html">Music</a> |
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/sandbox.html">Sandbox</a>
+		</div>
+		<!-- end directories -->
+		
+		
+		<hr color="#3d5780"/>
+	
+	  </div>
+	  
+	  
+	  <!-- Images -->
+	  <div>
+		<p style="float:left;"> <img src = "C:/Users/Jeruel/Desktop/HTML Project 1/suku.jpg" width="583" height="663" border=4/></p>
+		<p style="position:relative; left: 18px; top:25px; font-family:Helvetica; color:#2d405e; line-height:90%;""><font size = "3">Can you find another image that can strike an unparalleled amount of fear that even remotely holds up to this accursed image?</p>
+	  </div>
+	  
+	  <br />
+	  
+	  <div style="clear: left;">
+		<p style="float:left;"> <img src = "C:/Users/Jeruel/Desktop/HTML Project 1/nagatoro.jpg" width="640" height="360" border=4/></p>
+		<p style="position:relative; left: 18px; top:25px; font-family:Helvetica; color:#2d405e; line-height:90%;""><font size = "3">It's <b>her.</b></p>
+	  </div>
+	  <!-- end images -->
+	  
+	</body>
+	
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Learning HTML - First Website</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+	
+   <body style="background-color:#95b1de;" alink = "#FF0000" link = "#0000FF" vlink = "#800080">
+   
+	<div align = "center">
+		<!-- Title of the overall page -->
+		<p title = "???" style = "font-family:Helvetica; color:#3ca5ca;"> <font size = "7"> <b>Headspace</b></font> </p>
+		<!-- end title-->
+	
+	
+		<!-- General Music -->
+		<audio controls autoplay loop id="page_music">
+			<source src= "C:/Users/Jeruel/Desktop/HTML Project 1/Time.mp3" type="audio/mpeg">
+		</audio>
+		
+		<script>
+			var music = document.getElementById("page_music");
+			music.volume = 0.2;
+		</script>
+		<!-- end music -->
+		
+		<p></p>
+		
+		<!-- Directories -->
+		<div id = "directory" style = "font-weight:bold;">
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/HTML Project 1.html">Home</a> | 
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/journal.html">Journal</a> | 
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/gallery.html">Gallery</a> | 
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/music.html">Music</a> |
+			<a href = "C:/Users/Jeruel/Desktop/HTML Project 1/sandbox.html">Sandbox</a>
+		</div>
+		<!-- end directories -->
+		
+		
+		<hr color="#3d5780"/>
+	
+		
+	</div>
+		
+	<!-- Journal Entries -->
+	<div align="left">
+		<p style = "font-family:Helvetica; color:#3d5780; font-weight:bold;"><font size = "5">&nbsp;<u><i>July 8th, 2021</u></i></p>
+		
+		<div style="font-family:Helvetica; color:#2d405e; line-height:90%;">
+			<p style="margin: -15px 0px 0px 5px;"><font size = "3">
+		    Learning HTML is a trial by fire, so I should try and take things one step at a time. <br/>
+			
+			<pre style="font-size: .5vw;">
+			
+	void DoingThingsTheHardWay(random_object thing1, random_object thing2){
+		random_object temp;
+		random_object* thing1_adr;
+		random_object* thing2_adr;
+				
+		thing1_adr = &thing1;
+		thing2_adr = &thing2;
+				
+		temp = *thing1_adr;
+		*thing1_adr = *thing2_adr;
+		*thing2_adr = temp;
+				
+		return 0;
+	}
+			</pre>
+			
+			Practicing my rusty programming skills, hopefully I haven't completely forgotten everything. At the very least, I feel as if it has been ingrained into my memory just like learning a bike, despite me never having actually learned how to bike. But this is also to test the preserve programming tag, which gives me some freedom like the ASCII art in the homepage. <br /><br />
+			And to test both align and title at the same time, it would be something like this: <br />
+			
+			<p align = "left" title = "Completely">This</p>
+			<p align = "center" title = "pointless">seems</p>
+			<p align = "right" title = "though.">correct.</p> 
+			
+			<br /><br />
+			<p>And for the following sentence, it should be a pain to read:</p>
+			<p><code>Do</code> <b>your</b> <i>eyes</i> <u>hurt</u> <mark>by</mark> <strike>just</strike> <tt>looking</tt> <sup>at</sup> <sub>something</sub> <big>like</big> <small>this?</small></p>
+			<p> Just doing it once is good enough to keep note of it and shove it away somewhere within the many bytes inside my brain. Just writing code is better than nothing. </p><br />
+		</div>
+	
+	</div>
+	<!-- end journal -->
+		
+   </body>
+	
+</html>
