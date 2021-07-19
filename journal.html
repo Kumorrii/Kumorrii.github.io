@@ -4,7 +4,7 @@
    <head>
       <title>Learning HTML - First Website</title>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <!--<base href = "C:/Users/Owner/Desktop/Kumorrii.github.io-main/">-->
+	  <base href = "C:/Users/Owner/Desktop/Kumorrii.github.io-main/">
    </head>
 	
    <body style="background-color:#95b1de;" alink = "#FF0000" link = "#0000FF" vlink = "#800080">
@@ -45,6 +45,32 @@
 	</div>
 		
 	<!-- Journal Entries -->
+	<!-- 3 -->
+	<div align="left">
+	<p style = "font-family:Helvetica; color:#3d5780; font-weight:bold;"><font size = "5">&nbsp;<u><i>July 19th, 2021</u></i></p>
+		
+		<div style="font-family:Helvetica; color:#2d405e; line-height:90%;">
+			<p style="margin: -15px 0px 0px 5px;"><font size = "3">
+			A week has passed and I've marathoned and reviewed through all the notes of one of the Python courses I took. I suppose compressing all that information I've learned over a 10 week period into several days is impressive enough? It's mainly just review though and dusting off things from the depths of my memory. I did create an Ebay web scraper and my first Discord Bot, going further as to integrate the scraper into the bot. It might not be anything substantial but at least it's a good milestone for me that I could look back on in the future.</br></br>
+			I'll leave this bit of code here as a memento:
+			
+			<pre style="font-size: .5vw;">
+			
+	def produce_ebay_prices(payload: dict) -> namedtuple:
+		"""Asks for parameters for an item on ebay and produces details for it"""
+
+		base_url = "https://www.ebay.com/sch/"
+
+		source = _get_url_source(base_url, payload)
+		item_list = _get_source_details(source)
+
+		return item_list
+		
+			</pre>
+			
+			</p>
+		</div>
+	</div>
 	
 	<!-- 2 -->
 	<div align="left">
